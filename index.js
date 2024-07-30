@@ -19,7 +19,6 @@ app.use(cors());
 //     credentials: true
 //   };
   
-app.use(cors(corsOptions));
   
 
 const JWT_SECRET = process.env.JWT_SECRET;
