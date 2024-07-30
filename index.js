@@ -12,12 +12,10 @@ const PORT= process.env.PORT || 3000;
 
 app.use(express.json());
 
-app.use(cors());
-
-// const corsOptions = {
-//     origin: '', 
-//     credentials: true
-//   };
+app.use(cors({
+    origin: "https://render-hosting-1.onrender.com/",
+    credentials: true
+}));
   
   
 
